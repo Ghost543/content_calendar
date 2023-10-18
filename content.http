@@ -1,0 +1,21 @@
+### Get all contents
+GET http://localhost:8080/api/content
+
+
+### Get content by id
+GET http://localhost:8080/api/content/1
+
+### Create new content
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "My jj Bog",
+    "description": "it is bad",
+    "status": "IDEA",
+    "contentType": "ARTICLE",
+    "dataCreated": "2023-07-17T23:52:21.884034898",
+    "dateUpdated": null,
+    "url": ""
+}
